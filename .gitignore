@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# Virtual environment
+venv/
+
+# Data & images (large files)
+data/images/
+data/image_index.json
+
+# Datasets
+dataset/semcor/
+dataset/augmented_semeval/
+dataset/gate_labels/
+
+# Checkpoints
+checkpoints/
+
+# Results
+results/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Claude
+.claude/
+CLAUDE.md
