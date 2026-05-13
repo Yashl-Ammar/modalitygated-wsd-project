@@ -192,9 +192,9 @@ def evaluate_dataset(ds_name, path, helpful_prob, bert_model, multi_model,
             gate_opens = False
 
         # ── CLIP multimodal (always run) ───────────────────────────────────
-        pred_multi, clip_max_sim = (None, None)
+        pred_multi, clip_margin = (None, None)
         if image_path is not None:
-            pred_multi, clip_max_sim = multi_model.predict_with_max_similarity(
+            pred_multi, clip_margin = multi_model.predict_with_max_similarity(
                 sentence, word, pos, image_path=image_path
             )
             if gate_opens:
@@ -211,8 +211,8 @@ def evaluate_dataset(ds_name, path, helpful_prob, bert_model, multi_model,
         update_counters(gate_counters, pos, gate_syn is not None and gate_syn == gold_syn)
 
         # ── learned_gate_ensemble: confidence tiebreak on gate=1 ──────────
-        if gate_opens and clip_max_sim is not None:
-            if max_prob > clip_max_sim:
+        if gate_opens and clip_margin is not None:
+            if margin > clip_margin:
                 pred_ens = pred_bert
                 n_bert_win += 1
             else:

@@ -204,13 +204,13 @@ def evaluate_dataset(ds_name, path, bert_model, multi_model, gate_model,
         # ── Multimodal inference ───────────────────────────────────────────
         # Run when gate opens OR when we need the clip baseline (mixed condition).
         pred_multi   = None
-        clip_max_sim = None
+        clip_margin = None
 
         need_multi = (gate_opens and image_path is not None) or \
                      (include_clip_baseline and image_path is not None)
 
         if need_multi:
-            pred_multi, clip_max_sim = multi_model.predict_with_max_similarity(
+            pred_multi, clip_margin = multi_model.predict_with_max_similarity(
                 sentence, word, pos, image_path=image_path
             )
             if gate_opens and image_path is not None:
@@ -223,8 +223,8 @@ def evaluate_dataset(ds_name, path, bert_model, multi_model, gate_model,
 
         # ── learned_gate_ensemble routing ──────────────────────────────────
         if include_ensemble:
-            if gate_opens and clip_max_sim is not None:
-                if max_prob > clip_max_sim:
+            if gate_opens and clip_margin is not None:
+                if margin > clip_margin:
                     pred_ens = pred_bert
                     n_bert_win += 1
                 else:

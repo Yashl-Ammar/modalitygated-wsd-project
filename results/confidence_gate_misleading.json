@@ -1,0 +1,257 @@
+{
+  "condition": "confidence_gate",
+  "image_condition": "misleading",
+  "total_time_s": 173.69,
+  "datasets": {
+    "senseval2": {
+      "overall": {
+        "f1": 0.6555,
+        "accuracy": 0.6555,
+        "precision": 0.6555,
+        "recall": 0.6555,
+        "n_correct": 1130,
+        "n_total": 1724,
+        "n_skipped": 0
+      },
+      "pos_breakdown": {
+        "NOUN": {
+          "f1": 0.7339,
+          "accuracy": 0.7339,
+          "precision": 0.7339,
+          "recall": 0.7339,
+          "n_correct": 568,
+          "n_total": 774,
+          "n_skipped": 0
+        },
+        "VERB": {
+          "f1": 0.4662,
+          "accuracy": 0.4662,
+          "precision": 0.4662,
+          "recall": 0.4662,
+          "n_correct": 221,
+          "n_total": 474,
+          "n_skipped": 0
+        },
+        "ADJ": {
+          "f1": 0.7006,
+          "accuracy": 0.7006,
+          "precision": 0.7006,
+          "recall": 0.7006,
+          "n_correct": 220,
+          "n_total": 314,
+          "n_skipped": 0
+        },
+        "ADV": {
+          "f1": 0.7469,
+          "accuracy": 0.7469,
+          "precision": 0.7469,
+          "recall": 0.7469,
+          "n_correct": 121,
+          "n_total": 162,
+          "n_skipped": 0
+        }
+      },
+      "time_s": 54.02,
+      "speed": 31.9
+    },
+    "senseval3": {
+      "overall": {
+        "f1": 0.6084,
+        "accuracy": 0.6084,
+        "precision": 0.6084,
+        "recall": 0.6084,
+        "n_correct": 895,
+        "n_total": 1471,
+        "n_skipped": 0
+      },
+      "pos_breakdown": {
+        "NOUN": {
+          "f1": 0.6843,
+          "accuracy": 0.6843,
+          "precision": 0.6843,
+          "recall": 0.6843,
+          "n_correct": 479,
+          "n_total": 700,
+          "n_skipped": 0
+        },
+        "VERB": {
+          "f1": 0.4423,
+          "accuracy": 0.4423,
+          "precision": 0.4423,
+          "recall": 0.4423,
+          "n_correct": 226,
+          "n_total": 511,
+          "n_skipped": 0
+        },
+        "ADJ": {
+          "f1": 0.7308,
+          "accuracy": 0.7308,
+          "precision": 0.7308,
+          "recall": 0.7308,
+          "n_correct": 190,
+          "n_total": 260,
+          "n_skipped": 0
+        }
+      },
+      "time_s": 47.38,
+      "speed": 31.0
+    },
+    "semeval2007": {
+      "overall": {
+        "f1": 0.5728,
+        "accuracy": 0.5728,
+        "precision": 0.5728,
+        "recall": 0.5728,
+        "n_correct": 236,
+        "n_total": 412,
+        "n_skipped": 0
+      },
+      "pos_breakdown": {
+        "NOUN": {
+          "f1": 0.7389,
+          "accuracy": 0.7389,
+          "precision": 0.7389,
+          "recall": 0.7389,
+          "n_correct": 116,
+          "n_total": 157,
+          "n_skipped": 0
+        },
+        "VERB": {
+          "f1": 0.4706,
+          "accuracy": 0.4706,
+          "precision": 0.4706,
+          "recall": 0.4706,
+          "n_correct": 120,
+          "n_total": 255,
+          "n_skipped": 0
+        }
+      },
+      "time_s": 13.27,
+      "speed": 31.0
+    },
+    "semeval2013": {
+      "overall": {
+        "f1": 0.6664,
+        "accuracy": 0.6664,
+        "precision": 0.6664,
+        "recall": 0.6664,
+        "n_correct": 849,
+        "n_total": 1274,
+        "n_skipped": 0
+      },
+      "pos_breakdown": {
+        "NOUN": {
+          "f1": 0.6664,
+          "accuracy": 0.6664,
+          "precision": 0.6664,
+          "recall": 0.6664,
+          "n_correct": 849,
+          "n_total": 1274,
+          "n_skipped": 0
+        }
+      },
+      "time_s": 39.49,
+      "speed": 32.3
+    },
+    "semeval2015": {
+      "overall": {
+        "f1": 0.6906,
+        "accuracy": 0.6906,
+        "precision": 0.6906,
+        "recall": 0.6906,
+        "n_correct": 442,
+        "n_total": 640,
+        "n_skipped": 0
+      },
+      "pos_breakdown": {
+        "NOUN": {
+          "f1": 0.7473,
+          "accuracy": 0.7473,
+          "precision": 0.7473,
+          "recall": 0.7473,
+          "n_correct": 272,
+          "n_total": 364,
+          "n_skipped": 0
+        },
+        "VERB": {
+          "f1": 0.546,
+          "accuracy": 0.546,
+          "precision": 0.546,
+          "recall": 0.546,
+          "n_correct": 89,
+          "n_total": 163,
+          "n_skipped": 0
+        },
+        "ADJ": {
+          "f1": 0.7381,
+          "accuracy": 0.7381,
+          "precision": 0.7381,
+          "recall": 0.7381,
+          "n_correct": 62,
+          "n_total": 84,
+          "n_skipped": 0
+        },
+        "ADV": {
+          "f1": 0.6552,
+          "accuracy": 0.6552,
+          "precision": 0.6552,
+          "recall": 0.6552,
+          "n_correct": 19,
+          "n_total": 29,
+          "n_skipped": 0
+        }
+      },
+      "time_s": 19.48,
+      "speed": 32.9
+    },
+    "aggregate": {
+      "overall": {
+        "f1": 0.6434,
+        "accuracy": 0.6434,
+        "precision": 0.6434,
+        "recall": 0.6434,
+        "n_correct": 3552,
+        "n_total": 5521,
+        "n_skipped": 0
+      },
+      "pos_breakdown": {
+        "NOUN": {
+          "f1": 0.6987,
+          "accuracy": 0.6987,
+          "precision": 0.6987,
+          "recall": 0.6987,
+          "n_correct": 2284,
+          "n_total": 3269,
+          "n_skipped": 0
+        },
+        "VERB": {
+          "f1": 0.4676,
+          "accuracy": 0.4676,
+          "precision": 0.4676,
+          "recall": 0.4676,
+          "n_correct": 656,
+          "n_total": 1403,
+          "n_skipped": 0
+        },
+        "ADJ": {
+          "f1": 0.7173,
+          "accuracy": 0.7173,
+          "precision": 0.7173,
+          "recall": 0.7173,
+          "n_correct": 472,
+          "n_total": 658,
+          "n_skipped": 0
+        },
+        "ADV": {
+          "f1": 0.733,
+          "accuracy": 0.733,
+          "precision": 0.733,
+          "recall": 0.733,
+          "n_correct": 140,
+          "n_total": 191,
+          "n_skipped": 0
+        }
+      }
+    }
+  }
+}

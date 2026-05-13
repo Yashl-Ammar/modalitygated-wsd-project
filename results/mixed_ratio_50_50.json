@@ -1,0 +1,774 @@
+{
+  "ratio": "50_50",
+  "helpful_prob": 0.5,
+  "irrelevant_prob": 0.5,
+  "seed": 42,
+  "total_time_s": 210.2,
+  "conditions": {
+    "clip_multimodal": {
+      "condition": "clip_multimodal",
+      "datasets": {
+        "senseval2": {
+          "overall": {
+            "f1": 0.5748,
+            "accuracy": 0.5748,
+            "precision": 0.5748,
+            "recall": 0.5748,
+            "n_correct": 991,
+            "n_total": 1724,
+            "n_skipped": 0
+          },
+          "pos_breakdown": {
+            "NOUN": {
+              "f1": 0.6189,
+              "accuracy": 0.6189,
+              "precision": 0.6189,
+              "recall": 0.6189,
+              "n_correct": 479,
+              "n_total": 774,
+              "n_skipped": 0
+            },
+            "VERB": {
+              "f1": 0.4916,
+              "accuracy": 0.4916,
+              "precision": 0.4916,
+              "recall": 0.4916,
+              "n_correct": 233,
+              "n_total": 474,
+              "n_skipped": 0
+            },
+            "ADJ": {
+              "f1": 0.5732,
+              "accuracy": 0.5732,
+              "precision": 0.5732,
+              "recall": 0.5732,
+              "n_correct": 180,
+              "n_total": 314,
+              "n_skipped": 0
+            },
+            "ADV": {
+              "f1": 0.6111,
+              "accuracy": 0.6111,
+              "precision": 0.6111,
+              "recall": 0.6111,
+              "n_correct": 99,
+              "n_total": 162,
+              "n_skipped": 0
+            }
+          },
+          "time_s": 65.88,
+          "speed": 26.2
+        },
+        "senseval3": {
+          "overall": {
+            "f1": 0.5608,
+            "accuracy": 0.5608,
+            "precision": 0.5608,
+            "recall": 0.5608,
+            "n_correct": 825,
+            "n_total": 1471,
+            "n_skipped": 0
+          },
+          "pos_breakdown": {
+            "NOUN": {
+              "f1": 0.5871,
+              "accuracy": 0.5871,
+              "precision": 0.5871,
+              "recall": 0.5871,
+              "n_correct": 411,
+              "n_total": 700,
+              "n_skipped": 0
+            },
+            "VERB": {
+              "f1": 0.5108,
+              "accuracy": 0.5108,
+              "precision": 0.5108,
+              "recall": 0.5108,
+              "n_correct": 261,
+              "n_total": 511,
+              "n_skipped": 0
+            },
+            "ADJ": {
+              "f1": 0.5885,
+              "accuracy": 0.5885,
+              "precision": 0.5885,
+              "recall": 0.5885,
+              "n_correct": 153,
+              "n_total": 260,
+              "n_skipped": 0
+            }
+          },
+          "time_s": 56.16,
+          "speed": 26.2
+        },
+        "semeval2007": {
+          "overall": {
+            "f1": 0.5121,
+            "accuracy": 0.5121,
+            "precision": 0.5121,
+            "recall": 0.5121,
+            "n_correct": 211,
+            "n_total": 412,
+            "n_skipped": 0
+          },
+          "pos_breakdown": {
+            "NOUN": {
+              "f1": 0.5796,
+              "accuracy": 0.5796,
+              "precision": 0.5796,
+              "recall": 0.5796,
+              "n_correct": 91,
+              "n_total": 157,
+              "n_skipped": 0
+            },
+            "VERB": {
+              "f1": 0.4706,
+              "accuracy": 0.4706,
+              "precision": 0.4706,
+              "recall": 0.4706,
+              "n_correct": 120,
+              "n_total": 255,
+              "n_skipped": 0
+            }
+          },
+          "time_s": 15.47,
+          "speed": 26.6
+        },
+        "semeval2013": {
+          "overall": {
+            "f1": 0.5691,
+            "accuracy": 0.5691,
+            "precision": 0.5691,
+            "recall": 0.5691,
+            "n_correct": 725,
+            "n_total": 1274,
+            "n_skipped": 0
+          },
+          "pos_breakdown": {
+            "NOUN": {
+              "f1": 0.5691,
+              "accuracy": 0.5691,
+              "precision": 0.5691,
+              "recall": 0.5691,
+              "n_correct": 725,
+              "n_total": 1274,
+              "n_skipped": 0
+            }
+          },
+          "time_s": 48.42,
+          "speed": 26.3
+        },
+        "semeval2015": {
+          "overall": {
+            "f1": 0.5781,
+            "accuracy": 0.5781,
+            "precision": 0.5781,
+            "recall": 0.5781,
+            "n_correct": 370,
+            "n_total": 640,
+            "n_skipped": 0
+          },
+          "pos_breakdown": {
+            "NOUN": {
+              "f1": 0.5934,
+              "accuracy": 0.5934,
+              "precision": 0.5934,
+              "recall": 0.5934,
+              "n_correct": 216,
+              "n_total": 364,
+              "n_skipped": 0
+            },
+            "VERB": {
+              "f1": 0.5521,
+              "accuracy": 0.5521,
+              "precision": 0.5521,
+              "recall": 0.5521,
+              "n_correct": 90,
+              "n_total": 163,
+              "n_skipped": 0
+            },
+            "ADJ": {
+              "f1": 0.5833,
+              "accuracy": 0.5833,
+              "precision": 0.5833,
+              "recall": 0.5833,
+              "n_correct": 49,
+              "n_total": 84,
+              "n_skipped": 0
+            },
+            "ADV": {
+              "f1": 0.5172,
+              "accuracy": 0.5172,
+              "precision": 0.5172,
+              "recall": 0.5172,
+              "n_correct": 15,
+              "n_total": 29,
+              "n_skipped": 0
+            }
+          },
+          "time_s": 24.22,
+          "speed": 26.4
+        },
+        "aggregate": {
+          "overall": {
+            "f1": 0.5655,
+            "accuracy": 0.5655,
+            "precision": 0.5655,
+            "recall": 0.5655,
+            "n_correct": 3122,
+            "n_total": 5521,
+            "n_skipped": 0
+          },
+          "pos_breakdown": {
+            "NOUN": {
+              "f1": 0.5879,
+              "accuracy": 0.5879,
+              "precision": 0.5879,
+              "recall": 0.5879,
+              "n_correct": 1922,
+              "n_total": 3269,
+              "n_skipped": 0
+            },
+            "VERB": {
+              "f1": 0.5018,
+              "accuracy": 0.5018,
+              "precision": 0.5018,
+              "recall": 0.5018,
+              "n_correct": 704,
+              "n_total": 1403,
+              "n_skipped": 0
+            },
+            "ADJ": {
+              "f1": 0.5805,
+              "accuracy": 0.5805,
+              "precision": 0.5805,
+              "recall": 0.5805,
+              "n_correct": 382,
+              "n_total": 658,
+              "n_skipped": 0
+            },
+            "ADV": {
+              "f1": 0.5969,
+              "accuracy": 0.5969,
+              "precision": 0.5969,
+              "recall": 0.5969,
+              "n_correct": 114,
+              "n_total": 191,
+              "n_skipped": 0
+            }
+          }
+        }
+      }
+    },
+    "learned_gate": {
+      "condition": "learned_gate",
+      "datasets": {
+        "senseval2": {
+          "overall": {
+            "f1": 0.7193,
+            "accuracy": 0.7193,
+            "precision": 0.7193,
+            "recall": 0.7193,
+            "n_correct": 1240,
+            "n_total": 1724,
+            "n_skipped": 0
+          },
+          "pos_breakdown": {
+            "NOUN": {
+              "f1": 0.7791,
+              "accuracy": 0.7791,
+              "precision": 0.7791,
+              "recall": 0.7791,
+              "n_correct": 603,
+              "n_total": 774,
+              "n_skipped": 0
+            },
+            "VERB": {
+              "f1": 0.5886,
+              "accuracy": 0.5886,
+              "precision": 0.5886,
+              "recall": 0.5886,
+              "n_correct": 279,
+              "n_total": 474,
+              "n_skipped": 0
+            },
+            "ADJ": {
+              "f1": 0.7293,
+              "accuracy": 0.7293,
+              "precision": 0.7293,
+              "recall": 0.7293,
+              "n_correct": 229,
+              "n_total": 314,
+              "n_skipped": 0
+            },
+            "ADV": {
+              "f1": 0.7963,
+              "accuracy": 0.7963,
+              "precision": 0.7963,
+              "recall": 0.7963,
+              "n_correct": 129,
+              "n_total": 162,
+              "n_skipped": 0
+            }
+          },
+          "time_s": 65.88,
+          "speed": 26.2
+        },
+        "senseval3": {
+          "overall": {
+            "f1": 0.7138,
+            "accuracy": 0.7138,
+            "precision": 0.7138,
+            "recall": 0.7138,
+            "n_correct": 1050,
+            "n_total": 1471,
+            "n_skipped": 0
+          },
+          "pos_breakdown": {
+            "NOUN": {
+              "f1": 0.7757,
+              "accuracy": 0.7757,
+              "precision": 0.7757,
+              "recall": 0.7757,
+              "n_correct": 543,
+              "n_total": 700,
+              "n_skipped": 0
+            },
+            "VERB": {
+              "f1": 0.6106,
+              "accuracy": 0.6106,
+              "precision": 0.6106,
+              "recall": 0.6106,
+              "n_correct": 312,
+              "n_total": 511,
+              "n_skipped": 0
+            },
+            "ADJ": {
+              "f1": 0.75,
+              "accuracy": 0.75,
+              "precision": 0.75,
+              "recall": 0.75,
+              "n_correct": 195,
+              "n_total": 260,
+              "n_skipped": 0
+            }
+          },
+          "time_s": 56.16,
+          "speed": 26.2
+        },
+        "semeval2007": {
+          "overall": {
+            "f1": 0.6578,
+            "accuracy": 0.6578,
+            "precision": 0.6578,
+            "recall": 0.6578,
+            "n_correct": 271,
+            "n_total": 412,
+            "n_skipped": 0
+          },
+          "pos_breakdown": {
+            "NOUN": {
+              "f1": 0.7452,
+              "accuracy": 0.7452,
+              "precision": 0.7452,
+              "recall": 0.7452,
+              "n_correct": 117,
+              "n_total": 157,
+              "n_skipped": 0
+            },
+            "VERB": {
+              "f1": 0.6039,
+              "accuracy": 0.6039,
+              "precision": 0.6039,
+              "recall": 0.6039,
+              "n_correct": 154,
+              "n_total": 255,
+              "n_skipped": 0
+            }
+          },
+          "time_s": 15.47,
+          "speed": 26.6
+        },
+        "semeval2013": {
+          "overall": {
+            "f1": 0.7268,
+            "accuracy": 0.7268,
+            "precision": 0.7268,
+            "recall": 0.7268,
+            "n_correct": 926,
+            "n_total": 1274,
+            "n_skipped": 0
+          },
+          "pos_breakdown": {
+            "NOUN": {
+              "f1": 0.7268,
+              "accuracy": 0.7268,
+              "precision": 0.7268,
+              "recall": 0.7268,
+              "n_correct": 926,
+              "n_total": 1274,
+              "n_skipped": 0
+            }
+          },
+          "time_s": 48.42,
+          "speed": 26.3
+        },
+        "semeval2015": {
+          "overall": {
+            "f1": 0.75,
+            "accuracy": 0.75,
+            "precision": 0.75,
+            "recall": 0.75,
+            "n_correct": 480,
+            "n_total": 640,
+            "n_skipped": 0
+          },
+          "pos_breakdown": {
+            "NOUN": {
+              "f1": 0.7885,
+              "accuracy": 0.7885,
+              "precision": 0.7885,
+              "recall": 0.7885,
+              "n_correct": 287,
+              "n_total": 364,
+              "n_skipped": 0
+            },
+            "VERB": {
+              "f1": 0.6871,
+              "accuracy": 0.6871,
+              "precision": 0.6871,
+              "recall": 0.6871,
+              "n_correct": 112,
+              "n_total": 163,
+              "n_skipped": 0
+            },
+            "ADJ": {
+              "f1": 0.7262,
+              "accuracy": 0.7262,
+              "precision": 0.7262,
+              "recall": 0.7262,
+              "n_correct": 61,
+              "n_total": 84,
+              "n_skipped": 0
+            },
+            "ADV": {
+              "f1": 0.6897,
+              "accuracy": 0.6897,
+              "precision": 0.6897,
+              "recall": 0.6897,
+              "n_correct": 20,
+              "n_total": 29,
+              "n_skipped": 0
+            }
+          },
+          "time_s": 24.22,
+          "speed": 26.4
+        },
+        "aggregate": {
+          "overall": {
+            "f1": 0.7185,
+            "accuracy": 0.7185,
+            "precision": 0.7185,
+            "recall": 0.7185,
+            "n_correct": 3967,
+            "n_total": 5521,
+            "n_skipped": 0
+          },
+          "pos_breakdown": {
+            "NOUN": {
+              "f1": 0.7574,
+              "accuracy": 0.7574,
+              "precision": 0.7574,
+              "recall": 0.7574,
+              "n_correct": 2476,
+              "n_total": 3269,
+              "n_skipped": 0
+            },
+            "VERB": {
+              "f1": 0.6108,
+              "accuracy": 0.6108,
+              "precision": 0.6108,
+              "recall": 0.6108,
+              "n_correct": 857,
+              "n_total": 1403,
+              "n_skipped": 0
+            },
+            "ADJ": {
+              "f1": 0.7371,
+              "accuracy": 0.7371,
+              "precision": 0.7371,
+              "recall": 0.7371,
+              "n_correct": 485,
+              "n_total": 658,
+              "n_skipped": 0
+            },
+            "ADV": {
+              "f1": 0.7801,
+              "accuracy": 0.7801,
+              "precision": 0.7801,
+              "recall": 0.7801,
+              "n_correct": 149,
+              "n_total": 191,
+              "n_skipped": 0
+            }
+          }
+        }
+      }
+    },
+    "learned_gate_ensemble": {
+      "condition": "learned_gate_ensemble",
+      "datasets": {
+        "senseval2": {
+          "overall": {
+            "f1": 0.7593,
+            "accuracy": 0.7593,
+            "precision": 0.7593,
+            "recall": 0.7593,
+            "n_correct": 1309,
+            "n_total": 1724,
+            "n_skipped": 0
+          },
+          "pos_breakdown": {
+            "NOUN": {
+              "f1": 0.8088,
+              "accuracy": 0.8088,
+              "precision": 0.8088,
+              "recall": 0.8088,
+              "n_correct": 626,
+              "n_total": 774,
+              "n_skipped": 0
+            },
+            "VERB": {
+              "f1": 0.6582,
+              "accuracy": 0.6582,
+              "precision": 0.6582,
+              "recall": 0.6582,
+              "n_correct": 312,
+              "n_total": 474,
+              "n_skipped": 0
+            },
+            "ADJ": {
+              "f1": 0.758,
+              "accuracy": 0.758,
+              "precision": 0.758,
+              "recall": 0.758,
+              "n_correct": 238,
+              "n_total": 314,
+              "n_skipped": 0
+            },
+            "ADV": {
+              "f1": 0.821,
+              "accuracy": 0.821,
+              "precision": 0.821,
+              "recall": 0.821,
+              "n_correct": 133,
+              "n_total": 162,
+              "n_skipped": 0
+            }
+          },
+          "time_s": 65.88,
+          "speed": 26.2
+        },
+        "senseval3": {
+          "overall": {
+            "f1": 0.7478,
+            "accuracy": 0.7478,
+            "precision": 0.7478,
+            "recall": 0.7478,
+            "n_correct": 1100,
+            "n_total": 1471,
+            "n_skipped": 0
+          },
+          "pos_breakdown": {
+            "NOUN": {
+              "f1": 0.7929,
+              "accuracy": 0.7929,
+              "precision": 0.7929,
+              "recall": 0.7929,
+              "n_correct": 555,
+              "n_total": 700,
+              "n_skipped": 0
+            },
+            "VERB": {
+              "f1": 0.6712,
+              "accuracy": 0.6712,
+              "precision": 0.6712,
+              "recall": 0.6712,
+              "n_correct": 343,
+              "n_total": 511,
+              "n_skipped": 0
+            },
+            "ADJ": {
+              "f1": 0.7769,
+              "accuracy": 0.7769,
+              "precision": 0.7769,
+              "recall": 0.7769,
+              "n_correct": 202,
+              "n_total": 260,
+              "n_skipped": 0
+            }
+          },
+          "time_s": 56.16,
+          "speed": 26.2
+        },
+        "semeval2007": {
+          "overall": {
+            "f1": 0.7306,
+            "accuracy": 0.7306,
+            "precision": 0.7306,
+            "recall": 0.7306,
+            "n_correct": 301,
+            "n_total": 412,
+            "n_skipped": 0
+          },
+          "pos_breakdown": {
+            "NOUN": {
+              "f1": 0.7962,
+              "accuracy": 0.7962,
+              "precision": 0.7962,
+              "recall": 0.7962,
+              "n_correct": 125,
+              "n_total": 157,
+              "n_skipped": 0
+            },
+            "VERB": {
+              "f1": 0.6902,
+              "accuracy": 0.6902,
+              "precision": 0.6902,
+              "recall": 0.6902,
+              "n_correct": 176,
+              "n_total": 255,
+              "n_skipped": 0
+            }
+          },
+          "time_s": 15.47,
+          "speed": 26.6
+        },
+        "semeval2013": {
+          "overall": {
+            "f1": 0.7653,
+            "accuracy": 0.7653,
+            "precision": 0.7653,
+            "recall": 0.7653,
+            "n_correct": 975,
+            "n_total": 1274,
+            "n_skipped": 0
+          },
+          "pos_breakdown": {
+            "NOUN": {
+              "f1": 0.7653,
+              "accuracy": 0.7653,
+              "precision": 0.7653,
+              "recall": 0.7653,
+              "n_correct": 975,
+              "n_total": 1274,
+              "n_skipped": 0
+            }
+          },
+          "time_s": 48.42,
+          "speed": 26.3
+        },
+        "semeval2015": {
+          "overall": {
+            "f1": 0.7891,
+            "accuracy": 0.7891,
+            "precision": 0.7891,
+            "recall": 0.7891,
+            "n_correct": 505,
+            "n_total": 640,
+            "n_skipped": 0
+          },
+          "pos_breakdown": {
+            "NOUN": {
+              "f1": 0.8132,
+              "accuracy": 0.8132,
+              "precision": 0.8132,
+              "recall": 0.8132,
+              "n_correct": 296,
+              "n_total": 364,
+              "n_skipped": 0
+            },
+            "VERB": {
+              "f1": 0.7485,
+              "accuracy": 0.7485,
+              "precision": 0.7485,
+              "recall": 0.7485,
+              "n_correct": 122,
+              "n_total": 163,
+              "n_skipped": 0
+            },
+            "ADJ": {
+              "f1": 0.7976,
+              "accuracy": 0.7976,
+              "precision": 0.7976,
+              "recall": 0.7976,
+              "n_correct": 67,
+              "n_total": 84,
+              "n_skipped": 0
+            },
+            "ADV": {
+              "f1": 0.6897,
+              "accuracy": 0.6897,
+              "precision": 0.6897,
+              "recall": 0.6897,
+              "n_correct": 20,
+              "n_total": 29,
+              "n_skipped": 0
+            }
+          },
+          "time_s": 24.22,
+          "speed": 26.4
+        },
+        "aggregate": {
+          "overall": {
+            "f1": 0.7589,
+            "accuracy": 0.7589,
+            "precision": 0.7589,
+            "recall": 0.7589,
+            "n_correct": 4190,
+            "n_total": 5521,
+            "n_skipped": 0
+          },
+          "pos_breakdown": {
+            "NOUN": {
+              "f1": 0.7883,
+              "accuracy": 0.7883,
+              "precision": 0.7883,
+              "recall": 0.7883,
+              "n_correct": 2577,
+              "n_total": 3269,
+              "n_skipped": 0
+            },
+            "VERB": {
+              "f1": 0.6793,
+              "accuracy": 0.6793,
+              "precision": 0.6793,
+              "recall": 0.6793,
+              "n_correct": 953,
+              "n_total": 1403,
+              "n_skipped": 0
+            },
+            "ADJ": {
+              "f1": 0.7705,
+              "accuracy": 0.7705,
+              "precision": 0.7705,
+              "recall": 0.7705,
+              "n_correct": 507,
+              "n_total": 658,
+              "n_skipped": 0
+            },
+            "ADV": {
+              "f1": 0.801,
+              "accuracy": 0.801,
+              "precision": 0.801,
+              "recall": 0.801,
+              "n_correct": 153,
+              "n_total": 191,
+              "n_skipped": 0
+            }
+          }
+        }
+      }
+    }
+  }
+}

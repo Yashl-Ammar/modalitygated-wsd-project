@@ -93,13 +93,13 @@ class MultimodalWSDModel:
     @torch.no_grad()
     def predict_with_max_similarity(self, sentence, word, pos=None, image_path=None):
         """
-        Same as predict but also returns the highest cosine similarity score
-        across all candidate senses after fusion. Used by the ensemble gate to
-        compare CLIP confidence against BERT max_prob.
+        Same as predict but also returns the softmax margin (p1 - p2) of the
+        top two senses after fusion. Used by the ensemble gate to compare CLIP
+        confidence against BERT margin on a scale-independent basis.
 
         Returns:
-            pred_sense:     synset name string or None
-            max_similarity: float — highest raw cosine similarity score
+            pred_sense: synset name string or None
+            margin:     float — softmax margin (p1 - p2) of top two senses
         """
         senses = get_senses(word, pos)
         if not senses:
@@ -121,8 +121,12 @@ class MultimodalWSDModel:
             fused.unsqueeze(0).expand(len(senses), -1),
             sense_embs
         )
+        probs    = F.softmax(scores, dim=0)
+        sorted_p, _ = torch.sort(probs, descending=True)
+        p1       = sorted_p[0].item()
+        p2       = sorted_p[1].item() if len(sorted_p) > 1 else 0.0
         best_idx = torch.argmax(scores).item()
-        return senses[best_idx][0], scores.max().item()
+        return senses[best_idx][0], p1 - p2
 
     @torch.no_grad()
     def predict_with_scores(self, sentence, word, pos=None, image_path=None):

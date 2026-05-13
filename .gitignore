@@ -12,18 +12,9 @@ venv/
 
 # Data & images (large files)
 data/images/
-data/image_index.json
-
-# Datasets
-dataset/semcor/
-dataset/augmented_semeval/
-dataset/gate_labels/
 
 # Checkpoints
 checkpoints/
-
-# Results
-results/
 
 # Jupyter
 .ipynb_checkpoints/
@@ -43,3 +34,6 @@ Thumbs.db
 # Claude
 .claude/
 CLAUDE.md
+
+# LaTeX
+*.tex

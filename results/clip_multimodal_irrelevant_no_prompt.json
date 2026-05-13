@@ -1,0 +1,258 @@
+{
+  "condition": "clip_multimodal_no_prompt",
+  "image_condition": "irrelevant",
+  "sense_prompting": false,
+  "total_time_s": 189.18,
+  "datasets": {
+    "senseval2": {
+      "overall": {
+        "f1": 0.2633,
+        "accuracy": 0.2633,
+        "precision": 0.2633,
+        "recall": 0.2633,
+        "n_correct": 454,
+        "n_total": 1724,
+        "n_skipped": 0
+      },
+      "pos_breakdown": {
+        "NOUN": {
+          "f1": 0.3049,
+          "accuracy": 0.3049,
+          "precision": 0.3049,
+          "recall": 0.3049,
+          "n_correct": 236,
+          "n_total": 774,
+          "n_skipped": 0
+        },
+        "VERB": {
+          "f1": 0.1793,
+          "accuracy": 0.1793,
+          "precision": 0.1793,
+          "recall": 0.1793,
+          "n_correct": 85,
+          "n_total": 474,
+          "n_skipped": 0
+        },
+        "ADJ": {
+          "f1": 0.2898,
+          "accuracy": 0.2898,
+          "precision": 0.2898,
+          "recall": 0.2898,
+          "n_correct": 91,
+          "n_total": 314,
+          "n_skipped": 0
+        },
+        "ADV": {
+          "f1": 0.2593,
+          "accuracy": 0.2593,
+          "precision": 0.2593,
+          "recall": 0.2593,
+          "n_correct": 42,
+          "n_total": 162,
+          "n_skipped": 0
+        }
+      },
+      "time_s": 65.32,
+      "speed": 26.4
+    },
+    "senseval3": {
+      "overall": {
+        "f1": 0.2223,
+        "accuracy": 0.2223,
+        "precision": 0.2223,
+        "recall": 0.2223,
+        "n_correct": 327,
+        "n_total": 1471,
+        "n_skipped": 0
+      },
+      "pos_breakdown": {
+        "NOUN": {
+          "f1": 0.2443,
+          "accuracy": 0.2443,
+          "precision": 0.2443,
+          "recall": 0.2443,
+          "n_correct": 171,
+          "n_total": 700,
+          "n_skipped": 0
+        },
+        "VERB": {
+          "f1": 0.1409,
+          "accuracy": 0.1409,
+          "precision": 0.1409,
+          "recall": 0.1409,
+          "n_correct": 72,
+          "n_total": 511,
+          "n_skipped": 0
+        },
+        "ADJ": {
+          "f1": 0.3231,
+          "accuracy": 0.3231,
+          "precision": 0.3231,
+          "recall": 0.3231,
+          "n_correct": 84,
+          "n_total": 260,
+          "n_skipped": 0
+        }
+      },
+      "time_s": 49.67,
+      "speed": 29.6
+    },
+    "semeval2007": {
+      "overall": {
+        "f1": 0.1917,
+        "accuracy": 0.1917,
+        "precision": 0.1917,
+        "recall": 0.1917,
+        "n_correct": 79,
+        "n_total": 412,
+        "n_skipped": 0
+      },
+      "pos_breakdown": {
+        "NOUN": {
+          "f1": 0.2484,
+          "accuracy": 0.2484,
+          "precision": 0.2484,
+          "recall": 0.2484,
+          "n_correct": 39,
+          "n_total": 157,
+          "n_skipped": 0
+        },
+        "VERB": {
+          "f1": 0.1569,
+          "accuracy": 0.1569,
+          "precision": 0.1569,
+          "recall": 0.1569,
+          "n_correct": 40,
+          "n_total": 255,
+          "n_skipped": 0
+        }
+      },
+      "time_s": 13.85,
+      "speed": 29.8
+    },
+    "semeval2013": {
+      "overall": {
+        "f1": 0.252,
+        "accuracy": 0.252,
+        "precision": 0.252,
+        "recall": 0.252,
+        "n_correct": 321,
+        "n_total": 1274,
+        "n_skipped": 0
+      },
+      "pos_breakdown": {
+        "NOUN": {
+          "f1": 0.252,
+          "accuracy": 0.252,
+          "precision": 0.252,
+          "recall": 0.252,
+          "n_correct": 321,
+          "n_total": 1274,
+          "n_skipped": 0
+        }
+      },
+      "time_s": 40.34,
+      "speed": 31.6
+    },
+    "semeval2015": {
+      "overall": {
+        "f1": 0.2594,
+        "accuracy": 0.2594,
+        "precision": 0.2594,
+        "recall": 0.2594,
+        "n_correct": 166,
+        "n_total": 640,
+        "n_skipped": 0
+      },
+      "pos_breakdown": {
+        "NOUN": {
+          "f1": 0.2885,
+          "accuracy": 0.2885,
+          "precision": 0.2885,
+          "recall": 0.2885,
+          "n_correct": 105,
+          "n_total": 364,
+          "n_skipped": 0
+        },
+        "VERB": {
+          "f1": 0.1902,
+          "accuracy": 0.1902,
+          "precision": 0.1902,
+          "recall": 0.1902,
+          "n_correct": 31,
+          "n_total": 163,
+          "n_skipped": 0
+        },
+        "ADJ": {
+          "f1": 0.2381,
+          "accuracy": 0.2381,
+          "precision": 0.2381,
+          "recall": 0.2381,
+          "n_correct": 20,
+          "n_total": 84,
+          "n_skipped": 0
+        },
+        "ADV": {
+          "f1": 0.3448,
+          "accuracy": 0.3448,
+          "precision": 0.3448,
+          "recall": 0.3448,
+          "n_correct": 10,
+          "n_total": 29,
+          "n_skipped": 0
+        }
+      },
+      "time_s": 19.95,
+      "speed": 32.1
+    },
+    "aggregate": {
+      "overall": {
+        "f1": 0.244,
+        "accuracy": 0.244,
+        "precision": 0.244,
+        "recall": 0.244,
+        "n_correct": 1347,
+        "n_total": 5521,
+        "n_skipped": 0
+      },
+      "pos_breakdown": {
+        "NOUN": {
+          "f1": 0.2667,
+          "accuracy": 0.2667,
+          "precision": 0.2667,
+          "recall": 0.2667,
+          "n_correct": 872,
+          "n_total": 3269,
+          "n_skipped": 0
+        },
+        "VERB": {
+          "f1": 0.1625,
+          "accuracy": 0.1625,
+          "precision": 0.1625,
+          "recall": 0.1625,
+          "n_correct": 228,
+          "n_total": 1403,
+          "n_skipped": 0
+        },
+        "ADJ": {
+          "f1": 0.2964,
+          "accuracy": 0.2964,
+          "precision": 0.2964,
+          "recall": 0.2964,
+          "n_correct": 195,
+          "n_total": 658,
+          "n_skipped": 0
+        },
+        "ADV": {
+          "f1": 0.2723,
+          "accuracy": 0.2723,
+          "precision": 0.2723,
+          "recall": 0.2723,
+          "n_correct": 52,
+          "n_total": 191,
+          "n_skipped": 0
+        }
+      }
+    }
+  }
+}

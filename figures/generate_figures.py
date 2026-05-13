@@ -33,7 +33,7 @@ def fig_mixed_conditions():
     conditions  = ["30% Helpful", "50% Helpful", "70% Helpful"]
     bert        = [71.58, 71.58, 71.58]
     clip_mm     = [44.05, 56.55, 69.66]
-    gate        = [72.29, 74.30, 76.11]
+    gate        = [73.75, 75.89, 77.85]
 
     colors = {
         "bert":  "#4C72B0",
@@ -93,7 +93,7 @@ def fig_oracle_gap():
     labels   = ["100% Irrel.", "30% Help.", "50% Help.", "70% Help.", "100% Help."]
     x        = np.arange(len(labels))
 
-    gate     = np.array([69.28, 72.29, 74.30, 76.11, 78.74])
+    gate     = np.array([70.55, 73.75, 75.89, 77.85, 80.98])
     oracle   = np.array([76.96, 81.45, 84.66, 87.59, 92.75])
     bert_bl  = np.array([71.58, 71.58, 71.58, 71.58, 71.58])
 
@@ -127,7 +127,7 @@ def fig_oracle_gap():
     )
     ax.text(
         gap_x + 0.22, (gap_top + gap_bot) / 2,
-        "10.36pp\noracle gap",
+        "8.77pp\noracle gap",
         fontsize=6.5, va="center", ha="left", color="#333333",
         linespacing=1.3,
     )
